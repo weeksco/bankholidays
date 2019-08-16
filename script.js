@@ -15,9 +15,12 @@ function upcoming_row(evt, divid) {
     cell.appendChild(text);
 }
 
+// next bank holiday whose END is in the future
 function next_event(events, now) {
     return events.find(function(evt) {
-        return evt.date >= now;
+        var midnight = new Date(evt.date);
+        midnight.setDate(midnight.getDate() + 1);
+        return midnight > now;
     });
 }
 
@@ -31,12 +34,18 @@ function days_string(days) {
     }
 }
 
+function days_left(dt, now) {
+    var midnight = new Date(dt);
+    midnight.setDate(midnight.getDate() + 1);
+    var next_time = midnight - now;
+    var days = Math.floor(next_time / day);
+    return days;
+}
+
 function display(events) {
     var now = new Date();
     var next_evt = next_event(events, now);
-    var next_time = next_evt.date - now;
-    var days = Math.ceil(next_time / day);
-
+    var days = days_left(next_evt.date, now);
     var daysDiv = document.getElementById('days');
     daysDiv.innerHTML = 'The next bank holiday is ' + days_string(days);
     var date = document.getElementById('date');
