@@ -1,14 +1,28 @@
 body {
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     background: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    margin: 16px;
 }
 
 #header {
     width: 100%;
     color: white;
-    background: black;
+    background: #28559A;
     padding: 5px 30px;
+    border-bottom-width: 8px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+#title {
+    font-size: 2em;
+    display: inline-block;
+    padding: 8px;
 }
 
 #date {
@@ -21,7 +35,7 @@ input {
 
 label {
     padding: 20px 30px;
-    background: silver;
+    background: #CAE7DF;
     cursor: pointer;
     color: black;
     display: inline-block;
@@ -30,12 +44,12 @@ label {
 
 input:checked + label {
     color: white;
-    background: teal;
+    background: #3778C2;
 }
 
 input:not(:checked) + label {
     color: black;
-    background: silver;
+    background: #CAE7DF;
     text-decoration: underline;
 }
 
@@ -45,7 +59,7 @@ input:not(:checked) + label {
 
 #next {
     padding: 20px 40px;
-    background: teal;
+    background: #3778C2;
     color: white;
     font-weight: bold;
     line-height: 0.8;

@@ -15,24 +15,27 @@
     </head>
     <body>
         <div id="header">
-            <h1 id="title">UK bank holidays</h1>
+            <img src="images/calendar.png"/>
+            <div id="title">UK bank holidays</div>
         </div>
-        <!--<h1>UK bank holidays</h1>-->
-        <h2>Next bank holiday</h2>
-        <div id="regions">
-            <input type="radio" name="region" id="englandwales" checked="checked" onchange="englandwales();"/>
-            <label for="englandwales">England and Wales</label>
-            <input type="radio" name="region" id="scotland" onchange="scotland();"/>
-            <label for="scotland">Scotland</label>
-            <input type="radio" name="region" id="northernireland" onchange="northernireland();"/>
-            <label for="northernireland">Northern Ireland</label>
+        <div id="main">
+            <!--<h1>UK bank holidays</h1>-->
+            <!--<h2>Next bank holiday</h2>-->
+            <div id="regions">
+                <input type="radio" name="region" id="englandwales" checked="checked" onchange="englandwales();"/>
+                <label for="englandwales">England and Wales</label>
+                <input type="radio" name="region" id="scotland" onchange="scotland();"/>
+                <label for="scotland">Scotland</label>
+                <input type="radio" name="region" id="northernireland" onchange="northernireland();"/>
+                <label for="northernireland">Northern Ireland</label>
+            </div>
+            <div id="next">
+                <h2 id="days"></h2>
+                <h1 id="date"></h1>
+                <h2 id="name"></h2>
+            </div>
+            <h2>Upcoming bank holidays</h2>
+            <table id="upcoming"></table>
         </div>
-        <div id="next">
-            <h2 id="days"></h2>
-            <h1 id="date"></h1>
-            <h2 id="name"></h2>
-        </div>
-        <h2>Upcoming bank holidays</h2>
-        <table id="upcoming"></table>
     </body>
 </html>
