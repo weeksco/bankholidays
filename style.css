@@ -12,15 +12,18 @@ body {
 #header {
     width: 100%;
     color: white;
-    background: #28559A;
+    /*background: #3778C2;*/
+    background: #336699;
     padding: 5px 30px;
     border-bottom-width: 8px;
-    border-bottom-color: black;
+    /*border-bottom-color: navy;*/
+    border-bottom-color: #003366;
     border-bottom-style: solid;
 }
 
 #title {
     font-size: 2em;
+    font-weight: bold;
     display: inline-block;
     padding: 8px;
 }
@@ -35,21 +38,26 @@ input {
 
 label {
     padding: 20px 30px;
-    background: #CAE7DF;
     cursor: pointer;
-    color: black;
     display: inline-block;
     font-size: 1.2em;
 }
 
 input:checked + label {
     color: white;
-    background: #3778C2;
+    background: #336699;
+    border-top-width: 8px;
+    border-top-color: #003366;
+    border-top-style: solid;
+
 }
 
 input:not(:checked) + label {
     color: black;
-    background: #CAE7DF;
+    background: silver;
+    border-top-width: 4px;
+    border-top-color: gray;
+    border-top-style: solid;
     text-decoration: underline;
 }
 
@@ -59,7 +67,7 @@ input:not(:checked) + label {
 
 #next {
     padding: 20px 40px;
-    background: #3778C2;
+    background: #336699;
     color: white;
     font-weight: bold;
     line-height: 0.8;
