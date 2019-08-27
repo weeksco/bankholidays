@@ -26,9 +26,9 @@ function next_event(events, now) {
 
 function days_string(days) {
     if (days == 0) {
-        return 'today';
+        return 'TODAY';
     } else if (days == 1) {
-        return 'tomorrow';
+        return 'TOMORROW';
     } else {
         return 'in ' + days + ' days';
     }
@@ -82,8 +82,6 @@ function englandwales() {
         {name: "Christmas Day", date: new Date("2020-12-25T00:00:00")},
         {name: "Boxing Day (substitute day)", date: new Date("2020-12-28T00:00:00")}
     ];
-    //document.querySelector("button").style.border = 'none';
-    //document.querySelector("#englandwales").style.border = '4px solid black';
     display(events);
 }
 
@@ -108,8 +106,6 @@ function scotland() {
         {name: "Christmas Day", date: new Date("2020-12-25T00:00:00")},
         {name: "Boxing Day (substitute day)", date: new Date("2020-12-28T00:00:00")}
     ];
-    //document.querySelector("button").style.border = 'none';
-    //document.querySelector("#scotland").style.border = '4px solid black';
     display(events);
 }
 
@@ -136,8 +132,6 @@ function northernireland() {
         {name: "Christmas Day", date: new Date("2020-12-25T00:00:00")},
         {name: "Boxing Day (substitute day)", date: new Date("2020-12-28T00:00:00")}
     ];
-    //document.querySelector("button").style.border = 'none';
-    //document.querySelector("#northernireland").style.border = '4px solid black';
     display(events);
 }
 
