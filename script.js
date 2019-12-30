@@ -65,14 +65,6 @@ function display(events) {
 
 function englandwales() {
     var events = [
-        {name: "New Year's Day", date: new Date("2019-01-01T00:00:00")},
-        {name: "Good Friday", date: new Date("2019-04-19T00:00:00")},
-        {name: "Easter Monday", date: new Date("2019-04-22T00:00:00")},
-        {name: "Early May bank holiday", date: new Date("2019-05-06T00:00:00")},
-        {name: "Spring bank holiday", date: new Date("2019-05-27T00:00:00")},
-        {name: "Summer bank holiday", date: new Date("2019-08-26T00:00:00")},
-        {name: "Christmas Day", date: new Date("2019-12-25T00:00:00")},
-        {name: "Boxing Day", date: new Date("2019-12-26T00:00:00")},
         {name: "New Year's Day", date: new Date("2020-01-01T00:00:00")},
         {name: "Good Friday", date: new Date("2020-04-10T00:00:00")},
         {name: "Easter Monday", date: new Date("2020-04-13T00:00:00")},
@@ -81,21 +73,20 @@ function englandwales() {
         {name: "Summer bank holiday", date: new Date("2020-08-31T00:00:00")},
         {name: "Christmas Day", date: new Date("2020-12-25T00:00:00")},
         {name: "Boxing Day (substitute day)", date: new Date("2020-12-28T00:00:00")}
+        {name: "New Year's Day", date: new Date("2021-01-01T00:00:00")},
+        {name: "Good Friday", date: new Date("2021-04-02T00:00:00")},
+        {name: "Easter Monday", date: new Date("2021-04-05T00:00:00")},
+        {name: "Early May bank holiday", date: new Date("2021-05-03T00:00:00")},
+        {name: "Spring bank holiday", date: new Date("2021-05-31T00:00:00")},
+        {name: "Summer bank holiday", date: new Date("2021-08-30T00:00:00")},
+        {name: "Christmas Day (substitute day)", date: new Date("2021-12-27T00:00:00")},
+        {name: "Boxing Day (substitute day)", date: new Date("2021-12-28T00:00:00")}
     ];
     display(events);
 }
 
 function scotland() {
     var events = [
-        {name: "New Year's Day", date: new Date("2019-01-01T00:00:00")},
-        {name: "2nd January", date: new Date("2019-01-02T00:00:00")},
-        {name: "Good Friday", date: new Date("2019-04-19T00:00:00")},
-        {name: "Early May bank holiday", date: new Date("2019-05-06T00:00:00")},
-        {name: "Spring bank holiday", date: new Date("2019-05-27T00:00:00")},
-        {name: "Summer bank holiday", date: new Date("2019-08-05T00:00:00")},
-        {name: "St Andrew's Day", date: new Date("2019-12-02T00:00:00")},
-        {name: "Christmas Day", date: new Date("2019-12-25T00:00:00")},
-        {name: "Boxing Day", date: new Date("2019-12-26T00:00:00")},
         {name: "New Year's Day", date: new Date("2020-01-01T00:00:00")},
         {name: "2nd January", date: new Date("2020-01-02T00:00:00")},
         {name: "Good Friday", date: new Date("2020-04-10T00:00:00")},
@@ -105,22 +96,21 @@ function scotland() {
         {name: "St Andrew's Day", date: new Date("2020-11-30T00:00:00")},
         {name: "Christmas Day", date: new Date("2020-12-25T00:00:00")},
         {name: "Boxing Day (substitute day)", date: new Date("2020-12-28T00:00:00")}
+        {name: "New Year's Day", date: new Date("2021-01-01T00:00:00")},
+        {name: "2nd January (substitute day)", date: new Date("2021-01-04T00:00:00")},
+        {name: "Good Friday", date: new Date("2021-04-02T00:00:00")},
+        {name: "Early May bank holiday", date: new Date("2021-05-03T00:00:00")},
+        {name: "Spring bank holiday", date: new Date("2021-05-31T00:00:00")},
+        {name: "Summer bank holiday", date: new Date("2021-08-02T00:00:00")},
+        {name: "St Andrew's Day", date: new Date("2021-11-30T00:00:00")},
+        {name: "Christmas Day (substitute day)", date: new Date("2021-12-27T00:00:00")},
+        {name: "Boxing Day (substitute day)", date: new Date("2021-12-28T00:00:00")}
     ];
     display(events);
 }
 
 function northernireland() {
     var events = [
-        {name: "New Year's Day", date: new Date("2019-01-01T00:00:00")},
-        {name: "St Patrick's Day (substitute day)", date: new Date("2019-03-18T00:00:00")},
-        {name: "Good Friday", date: new Date("2019-04-19T00:00:00")},
-        {name: "Easter Monday", date: new Date("2019-04-22T00:00:00")},
-        {name: "Early May bank holiday", date: new Date("2019-05-06T00:00:00")},
-        {name: "Spring bank holiday", date: new Date("2019-05-27T00:00:00")},
-        {name: "Battle of the Boyne (Orangemen's Day)", date: new Date("2019-07-12T00:00:00")},
-        {name: "Summer bank holiday", date: new Date("2019-08-26T00:00:00")},
-        {name: "Christmas Day", date: new Date("2019-12-25T00:00:00")},
-        {name: "Boxing Day", date: new Date("2019-12-26T00:00:00")},
         {name: "New Year's Day", date: new Date("2020-01-01T00:00:00")},
         {name: "St Patrick's Day", date: new Date("2020-03-17T00:00:00")},
         {name: "Good Friday", date: new Date("2020-04-10T00:00:00")},
@@ -131,6 +121,16 @@ function northernireland() {
         {name: "Summer bank holiday", date: new Date("2020-08-31T00:00:00")},
         {name: "Christmas Day", date: new Date("2020-12-25T00:00:00")},
         {name: "Boxing Day (substitute day)", date: new Date("2020-12-28T00:00:00")}
+        {name: "New Year's Day", date: new Date("2021-01-01T00:00:00")},
+        {name: "St Patrick's Day", date: new Date("2021-03-17T00:00:00")},
+        {name: "Good Friday", date: new Date("2021-04-02T00:00:00")},
+        {name: "Easter Monday", date: new Date("2021-04-05T00:00:00")},
+        {name: "Early May bank holiday", date: new Date("2021-05-03T00:00:00")},
+        {name: "Spring bank holiday", date: new Date("2021-05-31T00:00:00")},
+        {name: "Battle of the Boyne (Orangemen's Day)", date: new Date("2021-07-12T00:00:00")},
+        {name: "Summer bank holiday", date: new Date("2021-08-30T00:00:00")},
+        {name: "Christmas Day (substitute day)", date: new Date("2021-12-27T00:00:00")},
+        {name: "Boxing Day (substitute day)", date: new Date("2021-12-28T00:00:00")}
     ];
     display(events);
 }
