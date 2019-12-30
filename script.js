@@ -72,7 +72,7 @@ function englandwales() {
         {name: "Spring bank holiday", date: new Date("2020-05-25T00:00:00")},
         {name: "Summer bank holiday", date: new Date("2020-08-31T00:00:00")},
         {name: "Christmas Day", date: new Date("2020-12-25T00:00:00")},
-        {name: "Boxing Day (substitute day)", date: new Date("2020-12-28T00:00:00")}
+        {name: "Boxing Day (substitute day)", date: new Date("2020-12-28T00:00:00")},
         {name: "New Year's Day", date: new Date("2021-01-01T00:00:00")},
         {name: "Good Friday", date: new Date("2021-04-02T00:00:00")},
         {name: "Easter Monday", date: new Date("2021-04-05T00:00:00")},
@@ -95,7 +95,7 @@ function scotland() {
         {name: "Summer bank holiday", date: new Date("2020-08-03T00:00:00")},
         {name: "St Andrew's Day", date: new Date("2020-11-30T00:00:00")},
         {name: "Christmas Day", date: new Date("2020-12-25T00:00:00")},
-        {name: "Boxing Day (substitute day)", date: new Date("2020-12-28T00:00:00")}
+        {name: "Boxing Day (substitute day)", date: new Date("2020-12-28T00:00:00")},
         {name: "New Year's Day", date: new Date("2021-01-01T00:00:00")},
         {name: "2nd January (substitute day)", date: new Date("2021-01-04T00:00:00")},
         {name: "Good Friday", date: new Date("2021-04-02T00:00:00")},
@@ -120,7 +120,7 @@ function northernireland() {
         {name: "Battle of the Boyne (Orangemen's Day) (substitute day)", date: new Date("2020-07-13T00:00:00")},
         {name: "Summer bank holiday", date: new Date("2020-08-31T00:00:00")},
         {name: "Christmas Day", date: new Date("2020-12-25T00:00:00")},
-        {name: "Boxing Day (substitute day)", date: new Date("2020-12-28T00:00:00")}
+        {name: "Boxing Day (substitute day)", date: new Date("2020-12-28T00:00:00")},
         {name: "New Year's Day", date: new Date("2021-01-01T00:00:00")},
         {name: "St Patrick's Day", date: new Date("2021-03-17T00:00:00")},
         {name: "Good Friday", date: new Date("2021-04-02T00:00:00")},
